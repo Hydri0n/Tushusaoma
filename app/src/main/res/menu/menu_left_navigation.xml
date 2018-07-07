@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/menu_edit_info"
+            android:title="@string/menu_edit_info"
+            android:icon="@drawable/vector_menu_info"/>
+        <item
+            android:id="@+id/menu_comments"
+            android:title="@string/menu_comments"
+            android:icon="@drawable/vector_menu_comments"/>
+        <item
+            android:id="@+id/menu_help"
+            android:title="@string/menu_help"
+            android:icon="@drawable/vector_menu_help"/>
+        <item
+            android:id="@+id/menu_feedback"
+            android:title="@string/menu_feedback"
+            android:icon="@drawable/vector_menu_feedback"/>
+        <item
+            android:id="@+id/menu_quit"
+            android:title="@string/menu_quit"
+            android:icon="@drawable/vector_menu_quit"/>
+    </group>
+</menu>

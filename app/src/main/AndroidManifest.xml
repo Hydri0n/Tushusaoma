@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cc.hydrion.tushusaoma">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity.StartActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.LoginActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.SearchResultActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.RegisterActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.DetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.LibActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.EditInfoActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.EditHeaderActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.CommentActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.FeedBackActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.CommentEditActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.MyCommentsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.WelcomeGuideActivity"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

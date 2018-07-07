@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">图书扫码</string>
+
+    <string name="main_tab1">收藏夹</string>
+    <string name="main_tab2">我的足迹</string>
+    <string name="main_search">输入书名进行搜索</string>
+    <string name="main_clear_list2">清空历史记录</string>
+
+    <string name="menu_login">点击登录</string>
+    <string name="menu_quit">退出登录</string>
+    <string name="menu_edit_info">个人资料</string>
+    <string name="menu_help">使用向导</string>
+    <string name="menu_feedback">意见反馈</string>
+
+    <string name="header_title">便签</string>
+    <string name="header_edit_title">编辑便签</string>
+
+    <string name="edit_title">个人资料</string>
+    <string name="edit_save">保存</string>
+
+
+    <string name="login_userId">输入用户ID</string>
+    <string name="login_password">输入密码</string>
+    <string name="login_button">登录</string>
+    <string name="login_title">用户登录</string>
+    <string name="login_register">立即注册</string>
+
+    <string name="register_title">注册</string>
+    <string name="register_userId">输入ID（由数字、字母组成）</string>
+    <string name="register_userName">输入用户昵称</string>
+    <string name="register_password">输入密码</string>
+    <string name="register_repeatPassword">再次输入密码</string>
+    <string name="register_school">选择所在的学校</string>
+    <string name="register_button">完成</string>
+
+    <string name="detail_title">图书详情</string>
+    <string name="detail_name">书名</string>
+    <string name="detail_author">作者</string>
+    <string name="detail_date">出版日期</string>
+    <string name="detail_points">评分</string>
+    <string name="detail_price">定价</string>
+    <string name="detail_name_v">暂无</string>
+    <string name="detail_author_v">暂无</string>
+    <string name="detail_date_v">暂无</string>
+    <string name="detail_points_v">暂无</string>
+    <string name="detail_price_v">暂无</string>
+    <string name="detail_lib">馆藏</string>
+    <string name="detail_collect">收藏</string>
+    <string name="detail_share">分享</string>
+    <string name="detail_empty_text">图书馆内没有相关的藏书！</string>
+
+    <string name="lib_title">图书馆</string>
+    <string name="lib_favor">收藏</string>
+    <string name="lib_copy">复制</string>
+
+    <string-array name="detail_list">
+        <item>书籍简介</item>
+        <item>目录</item>
+        <item>作者介绍</item>
+    </string-array>
+
+    <string-array name="school_list">
+        <item>unknown</item>
+    </string-array>
+
+    <string-array name="info_list">
+        <item>用户id</item>
+        <item>用户名</item>
+        <item>性别</item>
+        <item>学校</item>
+    </string-array>
+
+    <string name="info_id">ID</string>
+    <string name="info_name">用户名</string>
+    <string name="info_sex">性别</string>
+    <string name="info_school">学校</string>
+
+    <string name="libUrl">https://hydrion.xyz/libscan</string>
+
+    <string name="url_login">http://123.207.15.54/booksearch/login.php</string>
+    <string name="url_login2">http://123.207.15.54/booksearch/login2.php</string>
+    <string name="url_register">http://123.207.15.54/booksearch/register.php</string>
+    <string name="url_information">http://123.207.15.54/booksearch/selfinfo_check.php</string>
+    <string name="url_logout">http://123.207.15.54/booksearch/logout.php</string>
+    <string name="url_modify">http://123.207.15.54/booksearch/modify.php</string>
+    <string name="url_book">http://123.207.15.54/booksearch/book.php</string>
+    <string name="url_collection">http://123.207.15.54/booksearch/collection.php</string>
+    <string name="url_collection_check">http://123.207.15.54/booksearch/collection_check.php</string>
+    <string name="url_comment_book">http://123.207.15.54/booksearch/comment_book.php</string>
+    <string name="url_comment_deliver">http://123.207.15.54/booksearch/comment_deliver.php</string>
+    <string name="url_comment_self">http://123.207.15.54/booksearch/comment_self.php</string>
+    <string name="url_search_book_api">https://api.douban.com/v2/book/search</string>
+
+    <string name="header_edit_header_title">书名</string>
+    <string name="header_edit_header_location">位置</string>
+    <string name="detail_commit">评论</string>
+    <string name="comment_title">评论</string>
+    <string name="empty_list1">收藏夹里还没有书籍</string>
+    <string name="empty_list2">还没有浏览过书籍</string>
+    <string name="empty_list3">图书馆内没有这本书的记录</string>
+    <string name="feedback_title">意见反馈</string>
+    <string name="feedback_commit">提交</string>
+    <string name="feedback_hint">填写你对本APP的意见与建议</string>
+    <string name="empty_list4">还没有人发表评论</string>
+    <string name="comment_commit">发表</string>
+    <string name="comment_edit_title">编辑评论</string>
+    <string name="comment_hint">写下你对这本书的感想</string>
+    <string name="edit_add">添加</string>
+    <string name="menu_comments">我的评论</string>
+    <string name="my_comments_title">我的评论</string>
+    <string name="empty_list5">还没有发表过评论</string>
+    <string name="search_title">查询结果</string>
+    <string name="search_name">书名</string>
+    <string name="search_publisher">出版社</string>
+    <string name="loading">正在加载...</string>
+    <string name="search_points">0.0</string>
+
+
+</resources>

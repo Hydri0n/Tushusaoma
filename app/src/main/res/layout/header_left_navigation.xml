@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/headerLayout"
+    android:layout_width="220dp"
+    android:layout_height="150dp"
+    android:background="@drawable/left"
+    android:paddingLeft="10dp">
+
+    <TextView
+        android:id="@+id/header_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/header_id"
+        android:text="@string/menu_login"
+        android:textColor="@color/whiteBackground"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/header_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/grayText"
+        android:textSize="18sp" />
+
+</RelativeLayout>
